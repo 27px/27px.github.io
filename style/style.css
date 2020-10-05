@@ -242,15 +242,15 @@ body
 }
 .flex-list .flex-item:nth-child(1) .image
 {
-  background-image:url("../Images/diving.jpg");
+  background-image:url("../Images/coding.png");
 }
 .flex-list .flex-item:nth-child(2) .image
 {
-  background-image:url("../Images/tree.jpg");
+  background-image:url("../Images/web-dev.jpg");
 }
 .flex-list .flex-item:nth-child(3) .image
 {
-  background-image:url("../Images/lake.jpg");
+  background-image:url("../Images/des.png");
 }
 .flex-list .flex-item:nth-child(4) .image
 {
