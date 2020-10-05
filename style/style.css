@@ -238,7 +238,21 @@ body
 {
   text-align:justify;
   font-size:18px;
-  line-height:28px;
+  line-height:33px;
+}
+.sub-title sup
+{
+  font-size:18px;
+  line-height:15px;
+}
+.sub-title a
+{
+  color:#808080;
+}
+.sub-title a:hover
+{
+  color:#2196F3;
+  text-decoration:none;
 }
 .flex-list .flex-item:nth-child(1) .image
 {
@@ -250,11 +264,11 @@ body
 }
 .flex-list .flex-item:nth-child(3) .image
 {
-  background-image:url("../Images/des.png");
+  background-image:url("../Images/des.jpg");
 }
 .flex-list .flex-item:nth-child(4) .image
 {
-  background-image:url("../Images/plant.jpg");
+  background-image:url("../Images/competitive-coding.png");
 }
 .flex-list .flex-item:nth-child(5) .image
 {
