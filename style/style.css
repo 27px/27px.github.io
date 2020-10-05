@@ -202,6 +202,7 @@ body
   position:relative;
   clip-path:circle(20% at 50% 50%);
   transition:clip-path 0.3s ease-in;
+  animation:move 10s ease-in-out infinite alternate;
 }
 .flex-list .flex-item .image::after
 {
@@ -247,7 +248,7 @@ body
 }
 .sub-title a
 {
-  color:#808080;
+  color:#606060;
 }
 .sub-title a:hover
 {
@@ -256,7 +257,7 @@ body
 }
 .flex-list .flex-item:nth-child(1) .image
 {
-  background-image:url("../Images/coding.png");
+  background-image:url("../Images/coding.jpg");
 }
 .flex-list .flex-item:nth-child(2) .image
 {
@@ -264,15 +265,26 @@ body
 }
 .flex-list .flex-item:nth-child(3) .image
 {
-  background-image:url("../Images/des.jpg");
+  background-image:url("../Images/ui-design.jpg");
 }
 .flex-list .flex-item:nth-child(4) .image
 {
-  background-image:url("../Images/competitive-coding.png");
+  background-image:url("../Images/competitive-coding.jpg");
 }
 .flex-list .flex-item:nth-child(5) .image
 {
-  background-image:url("../Images/field.jpg");
+  background-image:url("../Images/projects.jpg");
+}
+@keyframes move
+{
+  0%
+  {
+    background-position:0% 0%;
+  }
+  100%
+  {
+    background-position:100% 0%;
+  }
 }
 .footer
 {
