@@ -1,0 +1,5 @@
+mobile landscape nav scroll error
+footer tab mode redesign
+add link to sites like hackerrank on contact
+set up color theme
+set color of svg menu and other icons if any
