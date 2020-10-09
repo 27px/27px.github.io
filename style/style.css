@@ -558,6 +558,11 @@ span.hidden
 }
 @media (max-width:599px)
 {
+  body::-webkit-scrollbar
+  {
+    width:0;
+    height:0;
+  }
   .nav
   {
     box-shadow:0px 0px 0px 0px transparent;
